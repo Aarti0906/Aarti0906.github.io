@@ -88,6 +88,10 @@ body{
 .imageAboutPage {
     width: 80%;
 }
+#about{
+    position: relative;
+    color: #a26bd1;
+    font-size: medium;
 
 /* projects section css */
 
