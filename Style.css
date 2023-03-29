@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: #1a1a1a;
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 0;
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .text-container {
+    flex: 2;
+    text-align: right;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+  }
+  
+
+/* spacing on all sections */
+#about,#projects,#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    position: relative;
+    
+}
+#about{
+    position: relative;
+    color: #a26bd1;
+    font-size: medium;
+}
+
+/* projects section css */
+
+.projectsText.card {
+    height: 200px;
+    cursor: pointer;
+    position: center;
+  }
+.projestsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: justify;
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.projectsText:hover {
+    border: 2px solid #0f0f0f;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-linkedin:hover, .fa-twitch:hover {
+    color: #002d80;
+}
+.fab {
+    color: #0a0404;
+}
+
+
