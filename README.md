@@ -1,9 +1,9 @@
 # Aarti0906.github.io
 
-<img src= "screenshot.jpeg" width='200'/>
+<img src= "screenshot.png" width='200'/>
 
 ## Description
-This Exercise is created as a assignment  where packman should go forword from one side of the web page and start to return when it reaches end of the right corner
+This is a portfolio webpage which includes my bio, projects and contact information. i also used bootstrap to create the webpage.
 
 ## How to Run
 Fork the repository.
