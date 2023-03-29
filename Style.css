@@ -54,21 +54,21 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
+ }
   
-  .image-container {
+ .image-container {
     flex: 1;
     margin-right: 2rem;
-  }
+ }
   
-  .text-container {
+ .text-container {
     flex: 2;
     text-align: right;
-  }
+ }
   
-  .image-container img {
+ .image-container img {
     max-width: 100%;
-  }
+ }
   
 
 /* spacing on all sections */
